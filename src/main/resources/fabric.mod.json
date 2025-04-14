@@ -3,7 +3,7 @@
 	"id": "destellitocalendarmod",
 	"version": "${version}",
 	"name": "Destellito's Calendar Mod",
-	"description": "Basic mod to track the current date of a world.",
+	"description": "Simple mod to answer the question 'What's the date today?' in our minecraft worlds, use /getdate to know! ",
 	"authors": [
 		"Destellito"
 	],
@@ -29,7 +29,7 @@
 		"destellitocalendarmod.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.13",
+		"fabricloader": ">=0.16.10",
 		"minecraft": "~1.21.5",
 		"java": ">=21",
 		"fabric-api": "*"
