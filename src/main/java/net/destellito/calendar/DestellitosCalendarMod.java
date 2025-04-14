@@ -11,6 +11,7 @@ public class DestellitosCalendarMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		GetDateCommand.register();
+		LOGGER.info("DCMod initalized");
 	}
 }
