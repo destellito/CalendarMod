@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "destellitocalendarmod",
+	"version": "${version}",
+	"name": "Destellito's Calendar Mod",
+	"description": "Basic mod to track the current date of a world.",
+	"authors": [
+		"Destellito"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/destellitocalendarmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.destellito.calendar.DestellitosCalendarMod"
+		],
+		"fabric-datagen": [
+			"net.destellito.calendar.DestellitosCalendarModDataGenerator"
+		],
+		"client": [
+			"net.destellito.calendar.DestellitosCalendarModClient"
+		]
+	},
+	"mixins": [
+		"destellitocalendarmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
